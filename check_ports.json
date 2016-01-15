@@ -1,7 +1,7 @@
 {
   "checks": {
     "ports_check": {
-      "command": "ruby /etc/sensu/plugins/check-ports.rb -h 192.168.101.38 -p 22,80 -t 30 ",
+      "command": "ruby /etc/sensu/plugins/check-ports.rb -h 192.168.101.38 -p 80 -t 30 ",
       "interval": 5,
       "subscribers": [ "ALL" ]
     }
